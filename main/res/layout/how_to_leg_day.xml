@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_colour"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    android:paddingBottom="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/toLegDayExercise"
+            android:layout_width="0dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="30dp"
+            android:background="?attr/colorAccent"
+            android:text="Back To Leg Day Exercises"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+        <VideoView
+            android:id="@+id/HackSquatVideo"
+            android:layout_width="341dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toLegDayExercise" />
+
+        <TextView
+            android:id="@+id/HackSquatEquipment"
+            android:layout_width="0dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/hack_Squat_Info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/HackSquatVideo" />
+
+
+
+
+        <VideoView
+            android:id="@+id/LegPressVideo"
+            android:layout_width="341dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/HackSquatEquipment" />
+
+        <TextView
+            android:id="@+id/LegPressEquipment"
+            android:layout_width="0dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/leg_Press_Info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LegPressVideo" />
+
+
+
+
+
+
+        <VideoView
+            android:id="@+id/RomanianDeadliftVideo"
+            android:layout_width="341dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LegPressEquipment" />
+
+        <TextView
+            android:id="@+id/RomanianDeadliftEquipment"
+            android:layout_width="0dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/romanian_Deadlift_Info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RomanianDeadliftVideo" />
+
+
+
+
+        <VideoView
+            android:id="@+id/GobletSquatVideo"
+            android:layout_width="341dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RomanianDeadliftEquipment" />
+
+        <TextView
+            android:id="@+id/GobletSquatEquipment"
+            android:layout_width="0dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/goblet_Squat_Info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GobletSquatVideo" />
+
+
+
+
+
+        <VideoView
+            android:id="@+id/LegExtensionVideo"
+            android:layout_width="341dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GobletSquatEquipment" />
+
+        <TextView
+            android:id="@+id/LegExtensionEquipment"
+            android:layout_width="0dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/leg_Extension_Info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LegExtensionVideo" />
+
+
+
+
+
+
+
+        <VideoView
+            android:id="@+id/LegCurlVideo"
+            android:layout_width="341dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LegExtensionEquipment" />
+
+        <TextView
+            android:id="@+id/LegCurlEquipment"
+            android:layout_width="0dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/leg_Curl_Info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LegCurlVideo" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

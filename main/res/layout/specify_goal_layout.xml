@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_colour"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/choose_goal_header"
+        android:layout_width="209dp"
+        android:layout_height="71dp"
+        android:paddingTop="10dp"
+
+
+        android:text="@string/chosen_goal"
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/chosen_goal_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goals_apply_to_you"
+
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+
+    <TextView
+        android:id="@+id/textSpecGoalMuscleGain"
+        android:layout_width="243dp"
+        android:layout_height="68dp"
+        android:background="@drawable/rounded_outline_box"
+        android:text="MUSCLE GAIN"
+
+        android:textAlignment="center"
+        android:textColor="@color/accent_colour"
+        android:textSize="26sp"
+        android:gravity="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <TextView
+        android:id="@+id/textSpecGoalEndurance"
+        android:layout_width="243dp"
+        android:layout_height="68dp"
+        android:background="@drawable/rounded_outline_box"
+        android:gravity="center"
+
+        android:text="ENDURANCE"
+        android:textAlignment="center"
+        android:textColor="@color/accent_colour"
+        android:textSize="26sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/textSpecMaxStrength"
+        android:layout_width="243dp"
+        android:layout_height="68dp"
+        android:background="@drawable/rounded_outline_box"
+        android:gravity="center"
+
+        android:text="MAX STRENGTH"
+        android:textAlignment="center"
+        android:textColor="@color/accent_colour"
+        android:textSize="26sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <TextView
+        android:id="@+id/textSpecToneUp"
+        android:layout_width="243dp"
+        android:layout_height="68dp"
+        android:background="@drawable/rounded_outline_box"
+        android:gravity="center"
+
+        android:text="TONE UP"
+        android:textAlignment="center"
+        android:textColor="@color/accent_colour"
+        android:textSize="26sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <Switch
+        android:id="@+id/switchMuscleGain"
+        android:layout_width="128dp"
+        android:layout_height="62dp"
+        android:gravity="center"
+
+        android:text="Muscle Gain"
+        android:textAlignment="center"
+        android:textColor="@color/header_colour"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switchEndurance"
+        android:layout_width="128dp"
+        android:layout_height="62dp"
+        android:gravity="center"
+
+        android:text="Endurance"
+        android:textAlignment="center"
+        android:textColor="@color/header_colour"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switchStrength"
+        android:layout_width="128dp"
+        android:layout_height="62dp"
+        android:gravity="center"
+
+        android:text="Max Strength"
+        android:textAlignment="center"
+        android:textColor="@color/header_colour"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switchToneUp"
+        android:layout_width="128dp"
+        android:layout_height="62dp"
+        android:gravity="center"
+
+        android:text="Tone Up"
+        android:textAlignment="center"
+        android:textColor="@color/header_colour"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/next_button_goal_page"
+        android:layout_width="225dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/misc_colour"
+
+        android:text="@string/next"
+        android:textColor="@color/header_colour"
+        android:textSize="18sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

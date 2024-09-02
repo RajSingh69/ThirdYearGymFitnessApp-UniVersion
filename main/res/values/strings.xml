@@ -1,0 +1,290 @@
+<resources>
+    <string name="chosen_gender">What Is Your Gender?</string>
+    <string name="app_name">3rd Year Project</string>
+    <string name="female">FEMALE</string>
+    <string name="male">MALE</string>
+    <string name="your_chosen_gender_is">Your Chosen Gender Is:</string>
+    <string name="next">NEXT</string>
+
+    <string name="chosen_goal">What Is Your Goal?</string>
+    <string name="goals_apply_to_you">Please click all that apply to you.</string>
+    <string name="muscle_gain">MUSCLE GAIN</string>
+    <string name="endurance">ENDURANCE</string>
+    <string name="max_strength">MAX STRENGTH</string>
+    <string name="tone_up">TONE UP</string>
+
+    <string name = "errorThing"> There is an error here, try again. </string>
+
+
+
+    <string name="how_busy_are_you">How busy are you? Please choose the band that suits you best:</string>
+    <string name="how_much_equipment_do_you_have">How much equipment do you have? Please choose the band that suits you best:</string>
+    <string name="biceps_focus_areas">Focus areas: \n \n - Biceps (Short Head) \n - Forearms</string>
+
+
+    <string name="bicep_Curls_Info">
+        Name:\n • Bicep Curls\n\n
+        Equipment:\n • Dumbbells\n\n
+        Focus area:\n • Biceps \n\n
+        Preparation:\n
+        • Stand with a dumbbell in each hand, palms facing forward.\n
+        • Keep your back straight and core engaged (tensed).\n\n
+        Key Tips:\n
+        • Start with a weight that challenges you but allows for proper form.\n
+        • Keep your elbows close to your body.\n
+        • Control the movement, focusing on the contraction of the biceps.\n</string>
+
+    <string name="hammer_Curls_Info">
+        Name:\n • Hammer Curls\n\n
+        Equipment:\n • Dumbbells\n\n
+        Focus area:\n • Biceps \n\n
+        Preparation:\n
+        • Stand with a dumbbell in each hand, palms facing forward.\n
+        • Keep your back straight and core engaged (tensed).\n
+        • Similar to bicep curls but with palms facing inwards (neutral grip). \n\n
+        Key Tips:\n
+        • Start with a weight that challenges you but allows for proper form.\n
+        • Keep your elbows close to your body.\n
+        • Control the movement, focusing on the contraction of the biceps.\n
+        •	Engages both the biceps and brachialis.\n
+        •	Maintain a controlled pace and avoid swinging.\n </string>
+
+    <string name="dumbbell_Rows_Info">
+        Name:\n • Dumbbell Rows\n\n
+        Equipment:\n • Dumbbell, Bench\n\n
+        Focus area:\n • Back (especially lats)  \n\n
+        Preparation:\n
+        • Bent over with one knee and hand on a bench, opposite leg on the floor. \n
+        • Hold a dumbbell in the free hand, hanging straight down. \n\n
+        Key Tips:\n
+        • Pull the dumbbell towards your hip, squeezing your shoulder blade. \n
+        • Keep your back flat and avoid using momentum. \n \n
+    </string>
+
+    <string name="tBar_Rows_Info">
+        Name:\n • T Bar Rows \n\n
+        Equipment:\n • Dumbbells\n\n
+        Focus area:\n • Middle and upper back \n\n
+        Preparation:\n
+        • Use a T Bar row machine or landmine attachment. \n
+        • Load the appropriate weight on one end. \n\n
+        Key Tips:\n
+        • Keep your back straight and chest up. \n
+        • Pull the weight towards your chest, engaging your back muscles. \n
+    </string>
+
+    <string name="cable_Machine_Rows_Info">
+        Name:\n • Cable Machine Rows \n\n
+        Equipment:\n • Cable Machine with Straight or V-Bar Attachment \n\n
+        Focus area:\n • Upper back \n\n
+        Preparation:\n
+        • Use a cable machine with a straight or V-bar attachment. \n
+        • Keep core braced, and keep back straight. Breathe through nose. \n
+        • Sit with feet shoulder-width apart, grasp the handle, lean slightly forward. \n\n
+        Key Tips:\n
+        • Pull the handle towards your lower chest while keeping a straight back. \n
+        • Control the movement, and avoid excessive leaning. \n
+        • Hold for a second when touching lower chest. \n
+    </string>
+
+    <string name="lat_Pulldown_Info">
+        Name:\n • Lat Pulldown \n\n
+        Equipment:\n • Lat Pulldown Machine with Wide Grip Bar \n\n
+        Focus area:\n • Latissimus Dorsi (Lats)  \n\n
+        Preparation:\n
+        • Sit at a lat pulldown machine with a wide grip bar. \n
+        • Adjust the knee pads for stability. \n\n
+        Key Tips:\n
+        • Pull the bar down to the upper chest, engaging the lats. \n
+        • Control the movement both on the way down and up. \n
+    </string>
+
+    <string name="plate_Loaded_Rows_Info">
+        Name:\n • Plate Loaded Arm Rows \n\n
+        Equipment:\n • Plate-Loaded Row Machine \n\n
+        Focus area:\n • Upper back  \n\n
+        Preparation:\n
+        • Use a plate-loaded row machine. \n
+        • Sit with your chest against the pad, grasp the handles. \n\n
+        Key Tips:\n
+        • Pull the handles towards you, keeping your chest against the pad. \n
+        • Focus on squeezing your back muscles at the top of the movement. \n
+    </string>
+
+
+
+
+
+
+
+    <string name="incline_Plate_Bench_Info">
+        Name:\n • Incline Plate Bench \n\n
+        Equipment:\n • Incline Bench / Smith Machine / Plate Loaded Incline Press, Plates \n\n
+        Focus area:\n • Upper Chest \n\n
+        Preparation:\n
+        • Set up an incline bench at a 15-30 degree angle. \n
+        • Hold the bar, arms extended over your chest. \n\n
+        Key Tips:\n
+        • Control the descent and push the plates back up. \n
+        • Engage the upper chest muscles. \n
+    </string>
+
+    <string name="regular_Plate_Bench_Info">
+        Name:\n • Regular Plate Bench \n\n
+        Equipment:\n • Flat Bench / Smith Machine / Plate Loaded Bench Press, Plates  \n\n
+        Focus area:\n • General Chest \n\n
+        Preparation:\n
+        • Lie on a flat bench with a bar. \n\n
+        Key Tips:\n
+        • Lower the plates to chest level and push them back up. \n
+        • Ensure a stable grip and engage your chest muscles and tense your core. \n
+        • Drive your feet into the floor, have a slight arch in your back. \n
+        • Push yourself away from the bar. Keep your wrists straight. \n
+    </string>
+
+    <string name="dumbbell_Shoulder_Press_Info">
+        Name:\n • Dumbbell Shoulder Press  \n\n
+        Equipment:\n • Dumbbells\n\n
+        Focus area:\n • Shoulders \n\n
+        Preparation:\n
+        • Sit or stand with a dumbbell in each hand at shoulder height. \n\n
+        Key Tips:\n
+        • Press the dumbbells overhead, fully extending your arms. \n
+        • Keep your core engaged and maintain a neutral spine. \n
+        • Drive your feet into the floor. \n
+        • Keep elbows at a 45 degree angle \n
+    </string>
+
+    <string name="cable_Tricep_Pushdown_Info">
+        Name:\n • Cable Tricep Pushdown \n\n
+        Equipment:\n • Cable Machine with Straight Bar or Rope attachment.  \n\n
+        Focus area:\n • Triceps \n\n
+        Preparation:\n
+        • Use a cable machine with a straight bar or rope attachment. \n
+        • Raise the pulley point 2 points over head position. \n
+        • Stand with feet shoulder-width apart, elbows by your sides. \n\n
+        Key Tips:\n
+        • Push the bar down, fully extending your elbows. \n
+        • Control the movement and avoid using momentum. \n
+        • Brace core, tense triceps when extended. Hold for 1 second before going up. \n
+    </string>
+
+    <string name="overhead_rope_extension_Info">
+        Name:\n • Overhead Rope Extension \n\n
+        Equipment:\n • Cable Machine with Rope attachment.  \n\n
+        Focus area:\n • Triceps \n\n
+        Preparation:\n
+        • Use a cable machine with a rope attachment.
+        • Hold the rope with both hands, starting with it behind your head. \n
+        • Raise the pulley point 2 points over head position. \n
+        • Stand facing away from the machine. \n\n
+        Key Tips:\n
+        • Extend your arms overhead, focusing on the triceps. \n
+        • Keep your elbows in a stable position. \n
+    </string>
+
+    <string name="lateral_Raises_Info">
+        Name:\n • Lateral Raises \n\n
+        Equipment:\n • Dumbbells  \n\n
+        Focus area:\n • Shoulders \n\n
+        Preparation:\n
+        • Stand with a dumbbell in each hand, by your sides.  \n\n
+        Key Tips:\n
+        • Lift the dumbbells out to the sides, keeping a slight bend in your elbows.
+        • Control the movement and avoid using excessive weight. \n
+    </string>
+
+
+
+
+
+
+
+    <string name="hack_Squat_Info">
+        Name:\n • Hack Squat \n\n
+        Equipment:\n • Hack Squat Machine \n\n
+        Focus area:\n • Quads, Glutes, Hamstrings  \n\n
+        Preparation:\n
+        • Use a hack squat machine, position your back against the pad. \n
+        • If desired, you can also face towards the pad to train quads more. \n\n
+        Key Tips:\n
+        • Take a deep breath and brace your core, your stomach should be inflated. \n
+        • Lower your body by bending your knees, keeping your back against the pad. \n
+        • Press through your heels to return to the starting position. \n
+    </string>
+
+    <string name="leg_Press_Info">
+        Name:\n • Leg Press \n\n
+        Equipment:\n • Leg Press Machine \n\n
+        Focus area:\n • Quads, Glutes, Hamstrings  \n\n
+        Preparation:\n
+        • Sit in a leg press machine, placing your feet shoulder-width apart on the platform. \n
+        • If there feet are higher, more focus on quads. \n
+        • If feet are lower, more focus on glutes. \n\n
+        Key Tips:\n
+        • Push the platform away by extending your knees. \n
+        • Control the descent and engage your leg muscles. \n
+    </string>
+
+    <string name="romanian_Deadlift_Info">
+        Name:\n • Romanian Deadlift \n\n
+        Equipment:\n • Dumbbells / Kettlebell / Barbell \n\n
+        Focus area:\n • Hamstrings, glutes, lower back  \n\n
+        Preparation:\n
+        • Stand with equipment in front of you, feet hip-width apart.  \n\n
+        Key Tips:\n
+        • Hinge at your hips, keeping your back straight. \n
+        • Lower the barbell towards the floor while maintaining a slight bend in your knees. \n
+    </string>
+
+    <string name="goblet_Squat_Info">
+        Name:\n • Goblet Squat \n\n
+        Equipment:\n • Dumbbells / Kettlebell \n\n
+        Focus area:\n • Quads, glutes, hamstrings  \n\n
+        Preparation:\n
+        • Stand with equipment vertically at chest height.  \n\n
+        Key Tips:\n
+        • Squat down, keeping your back straight and chest up. \n
+        • Engage your core and push through your heels to return to the starting position. \n
+    </string>
+
+    <string name="leg_Extension_Info">
+        Name:\n • Leg Extension \n\n
+        Equipment:\n • Leg Extension Machine \n\n
+        Focus area:\n • Quads  \n\n
+        Preparation:\n
+        • Use a leg extension machine, sitting with your knees bent at 90 degrees. \n\n
+        Key Tips:\n
+        • Extend your legs, lifting the weight with your quads. \n
+        • Control the movement, avoiding locking your knees at the top. \n
+    </string>
+
+    <string name="leg_Curl_Info">
+        Name:\n • Leg Curl \n\n
+        Equipment:\n • Leg Curl Machine \n\n
+        Focus area:\n • Hamstrings, Quads  \n\n
+        Preparation:\n
+        • Use a leg curl machine, lying face down with your ankles under the roller pads.  \n\n
+        Key Tips:\n
+        • Curl the weight towards your glutes, engaging your hamstrings. \n
+        • Control the movement and avoid arching your back. \n
+    </string>
+
+
+
+    <string-array name="tabTitles">
+        <item>Your Overview</item>
+        <item>Gym Tracker</item>
+        <item>Diet Planner</item>
+        <item>Routine</item>
+        <item>Structure</item>
+    </string-array>
+
+
+    <string-array name="foodTitles">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+</resources>

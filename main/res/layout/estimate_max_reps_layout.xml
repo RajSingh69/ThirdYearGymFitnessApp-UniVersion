@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_colour"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/estimate_max_weight"
+        android:layout_width="227dp"
+        android:layout_height="90dp"
+        android:text="Please Specify Max Weight / Reps For Each Exercise"
+
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/max_bench_reps"
+        android:layout_width="177dp"
+        android:layout_height="58dp"
+        android:text="Please enter your maximum BENCH weight in Kg (5 rep max):"
+
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:id="@+id/max_squat_reps"
+        android:layout_width="177dp"
+        android:layout_height="58dp"
+        android:text="Please enter your maximum SQUAT weight in Kg (5 rep max):"
+
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352" />
+
+    <TextView
+        android:id="@+id/max_deadlift_reps"
+        android:layout_width="177dp"
+        android:layout_height="58dp"
+        android:text="Please enter your maximum DEADLIFT weight in Kg (5 rep max):"
+
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <TextView
+        android:id="@+id/max_push_up_reps"
+        android:layout_width="177dp"
+        android:layout_height="58dp"
+        android:text="Please enter your maximum PUSH-UPS reps (1 set):"
+
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/max_bodyweight_squat_reps"
+        android:layout_width="177dp"
+        android:layout_height="58dp"
+        android:text="Please enter your maximum BODYWEIGHT SQUAT reps (1 set):"
+
+        android:textAlignment="center"
+        android:textColor="@color/text_colour"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <EditText
+        android:id="@+id/obtain_bench_weight"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Bench Weight"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/accent_colour"
+        android:textColor="@color/accent_colour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <EditText
+        android:id="@+id/obtain_squat_weight"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Squat Weight"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/accent_colour"
+        android:textColor="@color/accent_colour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <EditText
+        android:id="@+id/obtain_deadlift_weight"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Deadlift Weight"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/accent_colour"
+        android:textColor="@color/accent_colour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <EditText
+        android:id="@+id/obtain_push_up_reps"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Push Up Reps"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/accent_colour"
+        android:textColor="@color/accent_colour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <EditText
+        android:id="@+id/obtain_bw_squat_reps"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Bodyweight Squat"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/accent_colour"
+        android:textColor="@color/accent_colour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <Button
+        android:id="@+id/next_button_maxReps_page"
+        android:layout_width="225dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/misc_colour"
+
+        android:text="@string/next"
+        android:textColor="@color/header_colour"
+        android:textSize="18sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

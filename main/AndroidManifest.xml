@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rajan.my3rdyearproject"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme._3rdYearProject"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".NewUserPage"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".LoginPage"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".SpecifyGenderSetup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.GENDERSETUP" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SpecifyGoalSetup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.GOALSETUP" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SpecifyBodyFocusSetup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BODYFOCUSSETUP" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SpecifyHeightWeightSetup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.HEIGHTWEIGHTSETUP" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".EstimateMaxRepsSetup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAXREPSSETUP" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".UnderstandLifeSetup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.UNDERSTANDLIFESETUP" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+
+        <activity
+            android:name=".AppBarSetup"
+            android:exported="true">
+            <!-- Remove this intent-filter -->
+            <!--<intent-filter>
+                <action android:name="android.intent.action.APPBARSETUP" />
+            </intent-filter>-->
+        </activity>
+
+
+        <activity
+            android:name=".OverviewFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.OVERVIEW_FRAGMENT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DietFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.DIET_FRAGMENT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GymFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.GYM_FRAGMENT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RoutineFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.ROUTINE_FRAGMENT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StructureFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.STRUCTURE_FRAGMENT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+        <activity
+            android:name=".AppBarFoodSetup"
+            android:exported="true">
+            <!-- Remove this intent-filter -->
+            <!--<intent-filter>
+                <action android:name="android.intent.action.APPBARFOODSETUP" />
+            </intent-filter>-->
+        </activity>
+
+
+        <activity
+            android:name=".Z_Breakfast_Fragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.Z_BREAKFAST_FRAGMENT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".Z_Lunch_Fragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.Z_LUNCH_FRAGMENT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Z_Dinner_Fragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.Z_LUNCH_FRAGMENT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".HowToPullDay"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".HowToPushDay"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".HowToLegDay"
+            android:exported="true">
+        </activity>
+
+
+        <activity
+            android:name=".GymPullDayMain"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".GymPushDayMain"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".GymLegDayMain"
+            android:exported="true">
+        </activity>
+
+
+
+    </application>
+
+</manifest>

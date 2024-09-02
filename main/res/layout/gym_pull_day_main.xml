@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Original Buttons -->
+        <Button
+            android:id="@+id/BackToGymFragPull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back To Gym Fragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/toUnderstandingPullDay"
+            android:layout_width="268dp"
+            android:layout_height="60dp"
+            android:text="Click here to understand pull day"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BackToGymFragPull" />
+
+        <!-- Line Chart -->
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toUnderstandingPullDay" />
+
+        <!-- Exercise One Block -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/exerciseOneBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/lineChart">
+
+            <!-- Exercise One Text Views -->
+
+            <TextView
+                android:id="@+id/exerciseOneName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Bicep Curls"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Exercise One Buttons -->
+            <TextView
+                android:id="@+id/exerciseOneWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="12dp"
+                android:text="Weight: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseOneName" />
+
+            <TextView
+                android:id="@+id/exerciseOneSets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Sets: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseOneWeight" />
+
+            <TextView
+                android:id="@+id/exerciseOneReps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Reps: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseOneSets" />
+
+            <Button
+                android:id="@+id/exerciseOneYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="16dp"
+                android:text="Yes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseOneReps" />
+
+            <Button
+                android:id="@+id/exerciseOneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:text="No"
+                app:layout_constraintStart_toEndOf="@id/exerciseOneYes"
+                app:layout_constraintTop_toTopOf="@id/exerciseOneYes" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Repeat the above structure for exerciseTwo to exerciseSix -->
+
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/exerciseTwoBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseOneBlock">
+
+            <!-- Exercise One Text Views -->
+
+            <TextView
+                android:id="@+id/exerciseTwoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Hammer Curls"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Exercise One Buttons -->
+            <TextView
+                android:id="@+id/exerciseTwoWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="12dp"
+                android:text="Weight: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseTwoName" />
+
+            <TextView
+                android:id="@+id/exerciseTwoSets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Sets: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseTwoWeight" />
+
+            <TextView
+                android:id="@+id/exerciseTwoReps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Reps: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseTwoSets" />
+
+            <Button
+                android:id="@+id/exerciseTwoYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="16dp"
+                android:text="Yes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseTwoReps" />
+
+            <Button
+                android:id="@+id/exerciseTwoNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:text="No"
+                app:layout_constraintStart_toEndOf="@id/exerciseTwoYes"
+                app:layout_constraintTop_toTopOf="@id/exerciseTwoYes" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/exerciseThreeBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseTwoBlock">
+
+            <!-- Exercise One Text Views -->
+
+            <TextView
+                android:id="@+id/exerciseThreeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Dumbbell Rows"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Exercise One Buttons -->
+            <TextView
+                android:id="@+id/exerciseThreeWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="12dp"
+                android:text="Weight: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseThreeName" />
+
+            <TextView
+                android:id="@+id/exerciseThreeSets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Sets: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseThreeWeight" />
+
+            <TextView
+                android:id="@+id/exerciseThreeReps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Reps: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseThreeSets" />
+
+            <Button
+                android:id="@+id/exerciseThreeYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="16dp"
+                android:text="Yes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseThreeReps" />
+
+            <Button
+                android:id="@+id/exerciseThreeNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:text="No"
+                app:layout_constraintStart_toEndOf="@id/exerciseThreeYes"
+                app:layout_constraintTop_toTopOf="@id/exerciseThreeYes" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/exerciseFourBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseThreeBlock">
+
+            <!-- Exercise One Text Views -->
+
+            <TextView
+                android:id="@+id/exerciseFourName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="154dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="T-Bar Rows"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Exercise One Buttons -->
+            <TextView
+                android:id="@+id/exerciseFourWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="12dp"
+                android:text="Weight: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseFourName" />
+
+            <TextView
+                android:id="@+id/exerciseFourSets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Sets: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseFourWeight" />
+
+            <TextView
+                android:id="@+id/exerciseFourReps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Reps: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseFourSets" />
+
+            <Button
+                android:id="@+id/exerciseFourYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="16dp"
+                android:text="Yes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseFourReps" />
+
+            <Button
+                android:id="@+id/exerciseFourNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:text="No"
+                app:layout_constraintStart_toEndOf="@id/exerciseFourYes"
+                app:layout_constraintTop_toTopOf="@id/exerciseFourYes" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/exerciseFiveBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseFourBlock">
+
+            <!-- Exercise One Text Views -->
+
+            <TextView
+                android:id="@+id/exerciseFiveName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="124dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Cable Machine Rows"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Exercise One Buttons -->
+            <TextView
+                android:id="@+id/exerciseFiveWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="12dp"
+                android:text="Weight: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseFiveName" />
+
+            <TextView
+                android:id="@+id/exerciseFiveSets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Sets: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseFiveWeight" />
+
+            <TextView
+                android:id="@+id/exerciseFiveReps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Reps: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseFiveSets" />
+
+            <Button
+                android:id="@+id/exerciseFiveYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="16dp"
+                android:text="Yes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseFiveReps" />
+
+            <Button
+                android:id="@+id/exerciseFiveNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:text="No"
+                app:layout_constraintStart_toEndOf="@id/exerciseFiveYes"
+                app:layout_constraintTop_toTopOf="@id/exerciseFiveYes" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/exerciseSixBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseFiveBlock">
+
+            <!-- Exercise One Text Views -->
+
+            <TextView
+                android:id="@+id/exerciseSixName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Lat Pulldown"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Exercise One Buttons -->
+            <TextView
+                android:id="@+id/exerciseSixWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="12dp"
+                android:text="Weight: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseSixName" />
+
+            <TextView
+                android:id="@+id/exerciseSixSets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Sets: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseSixWeight" />
+
+            <TextView
+                android:id="@+id/exerciseSixReps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:text="Reps: "
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseSixSets" />
+
+            <Button
+                android:id="@+id/exerciseSixYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="16dp"
+                android:text="Yes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exerciseSixReps" />
+
+            <Button
+                android:id="@+id/exerciseSixNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:text="No"
+                app:layout_constraintStart_toEndOf="@id/exerciseSixYes"
+                app:layout_constraintTop_toTopOf="@id/exerciseSixYes" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

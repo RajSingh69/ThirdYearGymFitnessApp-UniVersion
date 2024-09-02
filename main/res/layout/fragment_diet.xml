@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_colour"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+
+            android:text="Food Page"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/toFoodPages"
+            android:layout_width="162dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="40dp"
+
+            android:background="@drawable/rounded_outline_box"
+            android:gravity="center"
+            android:text="To Food Recycler View"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/header_colour"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/header" />
+
+        <TextView
+            android:id="@+id/currentWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="12dp"
+            android:text="Current Weight"
+            android:textAlignment="center"
+
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toFoodPages" />
+
+        <TextView
+            android:id="@+id/currentCarbs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="12dp"
+            android:text="Current Carbs"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentCalories" />
+
+        <TextView
+            android:id="@+id/currentSugars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="20dp"
+            android:text="Current Sugars"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentFats" />
+
+        <TextView
+            android:id="@+id/currentFiber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="12dp"
+            android:text="Current Fiber"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentSugars" />
+
+        <TextView
+            android:id="@+id/WaterDrunk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="20dp"
+            android:text="Water Drunk"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/targetWeight" />
+
+        <TextView
+            android:id="@+id/currentFats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="16dp"
+            android:text="Current Fats"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentProtein" />
+
+        <TextView
+            android:id="@+id/currentProtein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="16dp"
+            android:text="Current Protein"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentCarbs" />
+
+        <TextView
+            android:id="@+id/currentCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="20dp"
+            android:text="Current Calories"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/WaterDrunk" />
+
+        <TextView
+            android:id="@+id/targetWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+            android:layout_marginTop="12dp"
+            android:text="Target Weight"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentWeight" />
+
+        <Button
+            android:id="@+id/addWaterButton"
+            android:layout_width="151dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="128dp"
+
+            android:background="@drawable/rounded_outline_box"
+            android:gravity="center"
+            android:text="Add Water"
+            android:textAlignment="center"
+            android:textColor="@color/text_colour"
+
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/WaterDrunk"
+            app:layout_constraintTop_toTopOf="@id/WaterDrunk" />
+
+        <Button
+            android:id="@+id/submitFoodEaten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Food Eaten"
+            app:layout_constraintTop_toBottomOf="@id/currentFiber"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <Switch
+            android:id="@+id/chickenWrap"
+            android:layout_width="153dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="32dp"
+            android:text="Chicken Wrap"
+            android:textColor="@color/header_colour"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/submitFoodEaten" />
+
+        <Switch
+            android:id="@+id/chicken"
+            android:layout_width="152dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="24dp"
+            android:text="Chicken"
+            android:textColor="@color/header_colour"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/chickenWrap" />
+
+        <Switch
+            android:id="@+id/yogurtbreakfast"
+            android:layout_width="157dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="4dp"
+            android:text="Yogurt Breakfast"
+            android:textColor="@color/header_colour"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/chicken" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

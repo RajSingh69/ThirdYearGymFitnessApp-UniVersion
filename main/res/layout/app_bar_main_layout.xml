@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppBarSetup">
+
+    <!--
+    This part defines a MaterialToolbar element, which is a part of the Material Design
+            components provided by the com.google.android.material library.
+    It includes attributes for setting the ID (@+id/main_toolbar), width (match_parent), height
+    (56dp), title text color (app:titleTextColor="@android:color/white"), and background color
+    (android:background="@color/design_default_color_primary").
+    -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/first_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:titleTextColor="@color/text_colour"
+        android:background="@color/background_colour">
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+    <!--
+    This section defines a TabLayout element, which is commonly used to implement tabs
+    in Android applications. It specifies an ID (@+id/tab_layout) and sets its width to
+    match the parent while allowing the height to wrap its content.
+    -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/first_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.google.android.material.tabs.TabLayout>
+
+    <!--
+    Finally, a ViewPager2 element is included, which is often used in conjunction with TabLayout
+     to implement swipeable pages. It has an ID (@+id/pager) and is set to match the parent's
+     width and height.
+      -->
+
+<!--    <androidx.viewpager2.widget.ViewPager2-->
+<!--        android:id="@+id/first_pager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--    </androidx.viewpager2.widget.ViewPager2>-->
+
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/first_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:timePickerMode="spinner" />
+
+            <Button
+                android:id="@+id/setAlarmButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/timePicker"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:text="Set Morning Alarm" />
+
+            <Button
+                android:id="@+id/cancelAlarmButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setAlarmButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="Cancel Alarm"
+                android:visibility="gone" />
+
+            <!-- Header: Morning Routine -->
+            <TextView
+                android:id="@+id/textViewHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Morning Routine"
+                android:textSize="24sp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Pie Chart -->
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pieChart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Switches -->
+            <Switch
+                android:id="@+id/switchWakeUp"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Wake up and stretch" />
+
+            <Switch
+                android:id="@+id/switchWashUp"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Wash up and groom yourself" />
+
+            <Switch
+                android:id="@+id/switchEatFood"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Eat a healthy breakfast" />
+
+            <Switch
+                android:id="@+id/switchJournal"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Journal any thoughts stuck with you" />
+
+            <Switch
+                android:id="@+id/switchPray"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Pray / focus on personal belief" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/btnSubmitMorningRoutine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Submit Your Morning Routine Checklist" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/eveningRoutine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Evening Routine"
+                android:textSize="24sp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChartEvening"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Pie Chart -->
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pieChartEvening"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Switches -->
+            <Switch
+                android:id="@+id/switchReflectOnDay"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Reflect On Your Day" />
+
+            <Switch
+                android:id="@+id/switchPrepareTomorrow"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Prepare for tomorrow" />
+
+            <Switch
+                android:id="@+id/switchEatHealthyDinner"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Eat a healthy dinner" />
+
+            <Switch
+                android:id="@+id/switchUnplug"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Unplug from devices" />
+
+            <Switch
+                android:id="@+id/switchRelaxation"
+                android:layout_width="133dp"
+                android:layout_height="57dp"
+                android:layout_margin="8dp"
+                android:text="Relax with yoga and herbal tea" />
+
+
+            <Button
+                android:id="@+id/btnSubmitEveningRoutine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Submit The Evening Routine Checklist" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
